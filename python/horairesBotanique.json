@@ -1,0 +1,202 @@
+{
+    "facet_groups": [
+        {
+            "facets": [
+                {
+                    "count": 5,
+                    "name": "TRANSPOLE:StopPointRef:BP:344:LOC",
+                    "path": "TRANSPOLE:StopPointRef:BP:344:LOC",
+                    "state": "displayed"
+                },
+                {
+                    "count": 3,
+                    "name": "TRANSPOLE:StopPointRef:BP:3209:LOC",
+                    "path": "TRANSPOLE:StopPointRef:BP:3209:LOC",
+                    "state": "displayed"
+                }
+            ],
+            "name": "identifiantstation"
+        },
+        {
+            "facets": [
+                {
+                    "count": 8,
+                    "name": "BOTANIQUE",
+                    "path": "BOTANIQUE",
+                    "state": "refined"
+                }
+            ],
+            "name": "nomstation"
+        },
+        {
+            "facets": [
+                {
+                    "count": 8,
+                    "name": "TRAM",
+                    "path": "TRAM",
+                    "state": "displayed"
+                }
+            ],
+            "name": "codeligne"
+        },
+        {
+            "facets": [
+                {
+                    "count": 3,
+                    "name": "CERISAIE",
+                    "path": "CERISAIE",
+                    "state": "displayed"
+                },
+                {
+                    "count": 3,
+                    "name": "LILLE FLANDRES",
+                    "path": "LILLE FLANDRES",
+                    "state": "displayed"
+                },
+                {
+                    "count": 2,
+                    "name": "PAVE DE LILLE",
+                    "path": "PAVE DE LILLE",
+                    "state": "displayed"
+                }
+            ],
+            "name": "sensligne"
+        }
+    ],
+    "nhits": 8,
+    "parameters": {
+        "dataset": "ilevia-prochainspassages",
+        "facet": [
+            "identifiantstation",
+            "nomstation",
+            "codeligne",
+            "sensligne"
+        ],
+        "format": "json",
+        "rows": 50,
+        "start": 0,
+        "timezone": "UTC"
+    },
+    "records": [
+        {
+            "datasetid": "ilevia-prochainspassages",
+            "fields": {
+                "clemodification": "TRANSPOLE:ItemId::268438485:LOC",
+                "cletri": "CERISAIE/BOTANIQUE/2023-08-21T20:09:22.000+02:00",
+                "codeligne": "TRAM",
+                "datemodification": "2023-08-21T18:00:00+00:00",
+                "heureestimeedepart": "2023-08-21T18:09:22+00:00",
+                "identifiantstation": "TRANSPOLE:StopPointRef:BP:344:LOC",
+                "nomstation": "BOTANIQUE",
+                "sensligne": "CERISAIE"
+            },
+            "record_timestamp": "2023-08-21T18:02:00Z",
+            "recordid": "e574cc19bacdc4220534d190acd73d892e9562ed"
+        },
+        {
+            "datasetid": "ilevia-prochainspassages",
+            "fields": {
+                "clemodification": "TRANSPOLE:ItemId::268436002:LOC",
+                "cletri": "CERISAIE/BOTANIQUE/2023-08-21T20:29:20.000+02:00",
+                "codeligne": "TRAM",
+                "datemodification": "2023-08-21T17:47:00+00:00",
+                "heureestimeedepart": "2023-08-21T18:29:20+00:00",
+                "identifiantstation": "TRANSPOLE:StopPointRef:BP:344:LOC",
+                "nomstation": "BOTANIQUE",
+                "sensligne": "CERISAIE"
+            },
+            "record_timestamp": "2023-08-21T18:02:00Z",
+            "recordid": "53fb5d42921135e6da20cf73cd2147975f5f233e"
+        },
+        {
+            "datasetid": "ilevia-prochainspassages",
+            "fields": {
+                "clemodification": "TRANSPOLE:ItemId::268439618:LOC",
+                "cletri": "CERISAIE/BOTANIQUE/2023-08-21T20:49:23.000+02:00",
+                "codeligne": "TRAM",
+                "datemodification": "2023-08-21T17:39:15+00:00",
+                "heureestimeedepart": "2023-08-21T18:49:23+00:00",
+                "identifiantstation": "TRANSPOLE:StopPointRef:BP:344:LOC",
+                "nomstation": "BOTANIQUE",
+                "sensligne": "CERISAIE"
+            },
+            "record_timestamp": "2023-08-21T18:02:00Z",
+            "recordid": "1146cebe9ef4afb35ea92c41b460db4fab79b387"
+        },
+        {
+            "datasetid": "ilevia-prochainspassages",
+            "fields": {
+                "clemodification": "TRANSPOLE:ItemId::268435994:LOC",
+                "cletri": "LILLE FLANDRES/BOTANIQUE/2023-08-21T20:11:13.000+02:00",
+                "codeligne": "TRAM",
+                "datemodification": "2023-08-21T18:02:05+00:00",
+                "heureestimeedepart": "2023-08-21T18:11:13+00:00",
+                "identifiantstation": "TRANSPOLE:StopPointRef:BP:3209:LOC",
+                "nomstation": "BOTANIQUE",
+                "sensligne": "LILLE FLANDRES"
+            },
+            "record_timestamp": "2023-08-21T18:02:00Z",
+            "recordid": "3200f5dd2c2207ebaffa67d72298bf45d8d03841"
+        },
+        {
+            "datasetid": "ilevia-prochainspassages",
+            "fields": {
+                "clemodification": "TRANSPOLE:ItemId::268439016:LOC",
+                "cletri": "LILLE FLANDRES/BOTANIQUE/2023-08-21T20:17:22.000+02:00",
+                "codeligne": "TRAM",
+                "datemodification": "2023-08-21T17:55:55+00:00",
+                "heureestimeedepart": "2023-08-21T18:17:22+00:00",
+                "identifiantstation": "TRANSPOLE:StopPointRef:BP:3209:LOC",
+                "nomstation": "BOTANIQUE",
+                "sensligne": "LILLE FLANDRES"
+            },
+            "record_timestamp": "2023-08-21T18:02:00Z",
+            "recordid": "79d20c5a14c1f438b8339953e616b9034f7555bf"
+        },
+        {
+            "datasetid": "ilevia-prochainspassages",
+            "fields": {
+                "clemodification": "TRANSPOLE:ItemId::268437106:LOC",
+                "cletri": "LILLE FLANDRES/BOTANIQUE/2023-08-21T20:25:54.000+02:00",
+                "codeligne": "TRAM",
+                "datemodification": "2023-08-21T17:58:35+00:00",
+                "heureestimeedepart": "2023-08-21T18:25:54+00:00",
+                "identifiantstation": "TRANSPOLE:StopPointRef:BP:3209:LOC",
+                "nomstation": "BOTANIQUE",
+                "sensligne": "LILLE FLANDRES"
+            },
+            "record_timestamp": "2023-08-21T18:02:00Z",
+            "recordid": "14e06d35b35a69333bde8ddd946f06a4cee78b4d"
+        },
+        {
+            "datasetid": "ilevia-prochainspassages",
+            "fields": {
+                "clemodification": "TRANSPOLE:ItemId::268437812:LOC",
+                "cletri": "PAVE DE LILLE/BOTANIQUE/2023-08-21T20:19:24.000+02:00",
+                "codeligne": "TRAM",
+                "datemodification": "2023-08-21T17:40:05+00:00",
+                "heureestimeedepart": "2023-08-21T18:19:24+00:00",
+                "identifiantstation": "TRANSPOLE:StopPointRef:BP:344:LOC",
+                "nomstation": "BOTANIQUE",
+                "sensligne": "PAVE DE LILLE"
+            },
+            "record_timestamp": "2023-08-21T18:02:00Z",
+            "recordid": "fdf04ef3345f46f95ef193149daa1c9483f379df"
+        },
+        {
+            "datasetid": "ilevia-prochainspassages",
+            "fields": {
+                "clemodification": "TRANSPOLE:ItemId::268437114:LOC",
+                "cletri": "PAVE DE LILLE/BOTANIQUE/2023-08-21T20:39:21.000+02:00",
+                "codeligne": "TRAM",
+                "datemodification": "2023-08-21T17:58:35+00:00",
+                "heureestimeedepart": "2023-08-21T18:39:21+00:00",
+                "identifiantstation": "TRANSPOLE:StopPointRef:BP:344:LOC",
+                "nomstation": "BOTANIQUE",
+                "sensligne": "PAVE DE LILLE"
+            },
+            "record_timestamp": "2023-08-21T18:02:00Z",
+            "recordid": "02957c4621687b03cdf9b00b00b9405918f8db67"
+        }
+    ]
+}

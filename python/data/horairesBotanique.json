@@ -1,0 +1,202 @@
+{
+    "facet_groups": [
+        {
+            "facets": [
+                {
+                    "count": 5,
+                    "name": "TRANSPOLE:StopPointRef:BP:344:LOC",
+                    "path": "TRANSPOLE:StopPointRef:BP:344:LOC",
+                    "state": "displayed"
+                },
+                {
+                    "count": 3,
+                    "name": "TRANSPOLE:StopPointRef:BP:3209:LOC",
+                    "path": "TRANSPOLE:StopPointRef:BP:3209:LOC",
+                    "state": "displayed"
+                }
+            ],
+            "name": "identifiantstation"
+        },
+        {
+            "facets": [
+                {
+                    "count": 8,
+                    "name": "BOTANIQUE",
+                    "path": "BOTANIQUE",
+                    "state": "refined"
+                }
+            ],
+            "name": "nomstation"
+        },
+        {
+            "facets": [
+                {
+                    "count": 8,
+                    "name": "TRAM",
+                    "path": "TRAM",
+                    "state": "refined"
+                }
+            ],
+            "name": "codeligne"
+        },
+        {
+            "facets": [
+                {
+                    "count": 3,
+                    "name": "EUROTELEPORT",
+                    "path": "EUROTELEPORT",
+                    "state": "displayed"
+                },
+                {
+                    "count": 3,
+                    "name": "LILLE FLANDRES",
+                    "path": "LILLE FLANDRES",
+                    "state": "displayed"
+                },
+                {
+                    "count": 2,
+                    "name": "TOURCOING CENTRE",
+                    "path": "TOURCOING CENTRE",
+                    "state": "displayed"
+                }
+            ],
+            "name": "sensligne"
+        }
+    ],
+    "nhits": 8,
+    "parameters": {
+        "dataset": "ilevia-prochainspassages",
+        "facet": [
+            "identifiantstation",
+            "nomstation",
+            "codeligne",
+            "sensligne"
+        ],
+        "format": "json",
+        "rows": 50,
+        "start": 0,
+        "timezone": "UTC"
+    },
+    "records": [
+        {
+            "datasetid": "ilevia-prochainspassages",
+            "fields": {
+                "clemodification": "TRANSPOLE:ItemId::268441363:LOC",
+                "cletri": "EUROTELEPORT/BOTANIQUE/2023-11-09T12:57:00.000+01:00",
+                "codeligne": "TRAM",
+                "datemodification": "2023-11-09T11:52:15+00:00",
+                "heureestimeedepart": "2023-11-09T11:57:00+00:00",
+                "identifiantstation": "TRANSPOLE:StopPointRef:BP:344:LOC",
+                "nomstation": "BOTANIQUE",
+                "sensligne": "EUROTELEPORT"
+            },
+            "record_timestamp": "2023-11-09T11:52:00Z",
+            "recordid": "df21b4937b5b9892674faf161d920851f10d6c76"
+        },
+        {
+            "datasetid": "ilevia-prochainspassages",
+            "fields": {
+                "clemodification": "TRANSPOLE:ItemId::268436515:LOC",
+                "cletri": "EUROTELEPORT/BOTANIQUE/2023-11-09T13:06:44.000+01:00",
+                "codeligne": "TRAM",
+                "datemodification": "2023-11-09T11:47:00+00:00",
+                "heureestimeedepart": "2023-11-09T12:06:44+00:00",
+                "identifiantstation": "TRANSPOLE:StopPointRef:BP:344:LOC",
+                "nomstation": "BOTANIQUE",
+                "sensligne": "EUROTELEPORT"
+            },
+            "record_timestamp": "2023-11-09T11:52:00Z",
+            "recordid": "7e901d7b69591c7773313c270e2640c552235cea"
+        },
+        {
+            "datasetid": "ilevia-prochainspassages",
+            "fields": {
+                "clemodification": "TRANSPOLE:ItemId::268438035:LOC",
+                "cletri": "EUROTELEPORT/BOTANIQUE/2023-11-09T13:16:44.000+01:00",
+                "codeligne": "TRAM",
+                "datemodification": "2023-11-09T11:46:55+00:00",
+                "heureestimeedepart": "2023-11-09T12:16:44+00:00",
+                "identifiantstation": "TRANSPOLE:StopPointRef:BP:344:LOC",
+                "nomstation": "BOTANIQUE",
+                "sensligne": "EUROTELEPORT"
+            },
+            "record_timestamp": "2023-11-09T11:52:00Z",
+            "recordid": "679e2f48094a59410ab06e81e42decf7dc770c90"
+        },
+        {
+            "datasetid": "ilevia-prochainspassages",
+            "fields": {
+                "clemodification": "TRANSPOLE:ItemId::268436507:LOC",
+                "cletri": "LILLE FLANDRES/BOTANIQUE/2023-11-09T12:54:45.000+01:00",
+                "codeligne": "TRAM",
+                "datemodification": "2023-11-09T11:51:55+00:00",
+                "heureestimeedepart": "2023-11-09T11:54:45+00:00",
+                "identifiantstation": "TRANSPOLE:StopPointRef:BP:3209:LOC",
+                "nomstation": "BOTANIQUE",
+                "sensligne": "LILLE FLANDRES"
+            },
+            "record_timestamp": "2023-11-09T11:52:00Z",
+            "recordid": "0238aed5a95da72188e8db75c7757a4397865997"
+        },
+        {
+            "datasetid": "ilevia-prochainspassages",
+            "fields": {
+                "clemodification": "TRANSPOLE:ItemId::268443732:LOC",
+                "cletri": "LILLE FLANDRES/BOTANIQUE/2023-11-09T12:59:02.000+01:00",
+                "codeligne": "TRAM",
+                "datemodification": "2023-11-09T11:51:25+00:00",
+                "heureestimeedepart": "2023-11-09T11:59:02+00:00",
+                "identifiantstation": "TRANSPOLE:StopPointRef:BP:3209:LOC",
+                "nomstation": "BOTANIQUE",
+                "sensligne": "LILLE FLANDRES"
+            },
+            "record_timestamp": "2023-11-09T11:52:00Z",
+            "recordid": "567e18176cc2a437cb76c8c920030a20925aa107"
+        },
+        {
+            "datasetid": "ilevia-prochainspassages",
+            "fields": {
+                "clemodification": "TRANSPOLE:ItemId::268438027:LOC",
+                "cletri": "LILLE FLANDRES/BOTANIQUE/2023-11-09T13:04:15.000+01:00",
+                "codeligne": "TRAM",
+                "datemodification": "2023-11-09T11:51:55+00:00",
+                "heureestimeedepart": "2023-11-09T12:04:15+00:00",
+                "identifiantstation": "TRANSPOLE:StopPointRef:BP:3209:LOC",
+                "nomstation": "BOTANIQUE",
+                "sensligne": "LILLE FLANDRES"
+            },
+            "record_timestamp": "2023-11-09T11:52:00Z",
+            "recordid": "6c8cefe956d56f1677b58a3187920fe2623f08cc"
+        },
+        {
+            "datasetid": "ilevia-prochainspassages",
+            "fields": {
+                "clemodification": "TRANSPOLE:ItemId::268439616:LOC",
+                "cletri": "TOURCOING CENTRE/BOTANIQUE/2023-11-09T13:01:42.000+01:00",
+                "codeligne": "TRAM",
+                "datemodification": "2023-11-09T11:40:10+00:00",
+                "heureestimeedepart": "2023-11-09T12:01:42+00:00",
+                "identifiantstation": "TRANSPOLE:StopPointRef:BP:344:LOC",
+                "nomstation": "BOTANIQUE",
+                "sensligne": "TOURCOING CENTRE"
+            },
+            "record_timestamp": "2023-11-09T11:52:00Z",
+            "recordid": "16574f8e0f6e3ba5e28e47704dae213aa6b4e69b"
+        },
+        {
+            "datasetid": "ilevia-prochainspassages",
+            "fields": {
+                "clemodification": "TRANSPOLE:ItemId::268443740:LOC",
+                "cletri": "TOURCOING CENTRE/BOTANIQUE/2023-11-09T13:11:42.000+01:00",
+                "codeligne": "TRAM",
+                "datemodification": "2023-11-09T11:40:10+00:00",
+                "heureestimeedepart": "2023-11-09T12:11:42+00:00",
+                "identifiantstation": "TRANSPOLE:StopPointRef:BP:344:LOC",
+                "nomstation": "BOTANIQUE",
+                "sensligne": "TOURCOING CENTRE"
+            },
+            "record_timestamp": "2023-11-09T11:52:00Z",
+            "recordid": "defa66ddaae1b192bf6a07dc8a4fd0d3698914dd"
+        }
+    ]
+}

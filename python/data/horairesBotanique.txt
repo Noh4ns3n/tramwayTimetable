@@ -1,0 +1,4 @@
+Direction, Prochain, Prochain+1, Prochain+2
+<EUROTELEPORT><13:57><14:06><14:16>
+<LILLE FLANDRES><13:54><13:59><14:04>
+<TOURCOING CENTRE><14:01><14:11>
