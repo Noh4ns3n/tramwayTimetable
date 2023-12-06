@@ -28,7 +28,7 @@ def readJsonFile(filePath):
 # ==============
 def formatTime(hourMinute):
     timeObj = datetime.strptime(hourMinute, "%H:%M")
-    timeObj += timedelta(hours=2)
+    timeObj += timedelta(hours=1)
     formattedTime = timeObj.strftime("%H:%M")
     return formattedTime
 
@@ -125,11 +125,12 @@ def runTest(ser, data, startMarker, endMarker):
 # MAIN
 # ==============
 def main():
-    nomStation = "BOTANIQUE"
+    # v This can be adapted to any station and for bus / metro easily
+    nomStation = "EUROTELEPORT"
     ligne = "TRAM"
     url = "https://opendata.lillemetropole.fr/api/records/1.0/search/?dataset=ilevia-prochainspassages&q=&rows=50&facet=identifiantstation&facet=nomstation&facet=codeligne&facet=sensligne&refine.codeligne="+ligne+"&refine.nomstation="+nomStation
-    jsonFilePath = "c:/users/20100/Dev/Python/horairesTramway/python/data/horairesBotanique.json"
-    textFilePath = "c:/users/20100/Dev/Python/horairesTramway/python/data/horairesBotanique.txt"
+    jsonFilePath = "./python/data/timetable.json"
+    textFilePath = "./python/data/timetable.txt"
     
     pageJson = fetchDataFromApi(url)
     createJsonFile(pageJson, jsonFilePath)
